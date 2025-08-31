@@ -4,8 +4,7 @@ This repository contains the complete analysis pipeline used in our study invest
 
 It integrates:  
 - **Behavioral analyses (R)** for prediction error, imitation–creation trade-off, and memory effects.  
-- **fMRI analyses (Python)** for dimensionality, representational similarity, connectivity, transfer, and decoding.  
-- **Multivariate analyses (MATLAB)** using CoSMoMVPA and CANlab for RSA, searchlight decoding, and mediation.
+- **fMRI analyses (MATLAB & Python)** for dimensionality, representational similarity, connectivity, transfer, and decoding.  
 
 All scripts are organized into modules, each corresponding to specific analyses reported in the study.
 
@@ -13,9 +12,7 @@ All scripts are organized into modules, each corresponding to specific analyses 
 
 📂 Repository Structure and Code Descriptions
 
-😊 Behavioral Analyses (R)
-
-R scripts implement trial-level and subject-level models of prediction error, imitation, memory, and creativity.
+😊 Behavioral Analyses
 
 - **1predicErrorMemoryGLLM.R**  
   - GLMM testing whether prediction errors improve exemplar memory.  
@@ -117,20 +114,18 @@ R scripts implement trial-level and subject-level models of prediction error, im
 ⚙️ Dependencies
 
 ### R
-- R (≥ 4.0)  
+- R   
 - Packages: `lme4`, `lmerTest`, `mediation`, `ggplot2`  
 
 ### Python
-- Python (≥ 3.9)  
+- Python
 - Packages: `numpy`, `scipy`, `scikit-learn`  
 - Optional: `nilearn`, `nibabel`, `matplotlib`  
 
 ### MATLAB
-- MATLAB (R2021a or later recommended)  
+- MATLAB 
 - [CoSMoMVPA toolbox](https://www.cosmomvpa.org/)  
 - [CANlab Core Tools](https://github.com/canlab)  
-
----
 
 
 
